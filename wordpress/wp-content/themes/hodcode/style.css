@@ -1,73 +1,1627 @@
-
-
-/*
-Theme Name: HodCode 2
-Version: 1.2
-*/
-
-body {
-    background-color: #F9FAFB;
-    font-family: IRANYekanX, Tahoma;
-}
-
-.onsale {
-    display: none;
-}
-
-.attachment-woocommerce_thumbnail {
-    height: 250px;
-    object-fit: cover;
-}
-
-.main-nav > :last-child {
-    margin-right: auto;
-}
-
-.custom-logo-link {
-    width: 50px;
-}
-
-.bg-blue1 { background-color: #428EFF; }
-.text-blue1 { color: #428EFF; }
-
-.text-gray { color: #677F8B; }
-
-.bg-blue2 { background-color: #7092C5; }
-.text-blue2 { color: #7092C5; }
-
-/* --- Contact Form 7 --- */
-.wpcf7-form {
-    display: flex;
-    gap: 10px;
-    flex-direction: column;
-}
-
-.wpcf7-form input,
-.wpcf7-form textarea {
-    border: 1px solid #ccc;
-    border-radius: 10px;
+/* ==========================
+   Global
+========================== */
+* {
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  
+  body {
+    background-color: #c8e6c9;
+    font-size: 16px;
+    line-height: 1.5;
+    word-wrap: break-word;
+    font-family: IRANYekanX, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  table {
     width: 100%;
-    min-height: 40px;
-}
-
-.wpcf7-form p {
-    padding-top: 10px;
-    line-height: 2;
-}
-
-.wpcf7-form p label {
-    display: block;
-}
-
-.wpcf7-form p label span {
-    display: block;
-}
-
-.wpcf7-submit {
-    background-color: #7092C5;
-    color: white;
-    font-weight: 300;
-}
-#edit_display_name_description em{
-    display:none;
+    border-collapse: collapse;
+  }
+  
+  
+  /* ==========================
+     Container
+  ========================== */
+  .container {
+    width: 1200px;
+    margin: 0 auto;
+  }
+  
+  @media (max-width: 992px) {
+    .container {
+      width: 90%;
     }
+  }
+  
+  @media (max-width: 576px) {
+    .container {
+      width: 100%;
+      padding: 0 10px;
+    }
+  
+    .column, .col {
+      width: 100% !important;
+      display: block;
+    }
+  }
+  
+  /* ==========================
+     Header
+  ========================== */
+  header {
+    width: 100%;
+    padding: 0 40px;
+  }
+  
+  header img {
+    max-height: 70px;
+  }
+  
+  @media (max-width: 768px) {
+    header {
+      height: 60px;
+      padding: 0 15px;
+    }
+  
+    header img {
+      max-height: 40px;
+    }
+  }
+  
+  /* ==========================
+     Related Products
+  ========================== */
+  .related.products ul.products {
+    display: grid;
+    gap: 20px;
+  }
+  
+  @media (max-width: 992px) {
+    .related.products ul.products {
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .related.products ul.products {
+    }
+  }
+  
+  /* ==========================
+     Main & Forms
+  ========================== */
+  main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  form .cart {
+    background-color: none;
+  }
+  
+  button {
+    background-color: orange;
+    border-radius: 10px;
+    padding: 5px 15px;
+    color: black;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: smaller;
+    box-shadow: 2px 2px 5px #888;
+    transition: transform 0.3s;
+  }
+  
+  button:hover {
+    transform: scale(1.1);
+  }
+  
+  /* ==========================
+     Footer
+  ========================== */
+  footer {
+    background-color: #ffffff;
+    padding: 2px;
+  }
+  
+  /* ==========================
+     Headings & Text
+  ========================== */
+  h1 {
+    color: red;
+    font-size: xx-large;
+  }
+  
+  p {
+    font-family: IRANYekanX, Tahoma, sans-serif;
+  }
+  
+  /* ==========================
+     Pricing
+  ========================== */
+  .old-price bdi {
+    color: gray;
+    text-decoration: line-through;
+  }
+  
+  .new-price bdi {
+    color: #8c96d9;
+    font-weight: bold;
+  }
+  
+  #read-more-btn {
+    background-color: rgba(213, 146, 217, 0.7);
+    color: yellow;
+  }
+  
+  /* ==========================
+     Forms
+  ========================== */
+  .wpcf7 input[type=number]::-webkit-inner-spin-button,
+  .wpcf7 input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+  
+  .form-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .col-half {
+    width: 100%;
+  }
+  
+  @media (min-width: 768px) {
+    .col-half {
+      width: calc(50% - 10px);
+    }
+  }
+  
+  .wpcf7-textarea.form-control {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    min-width: 300px;
+    max-width: 100%;
+    height: 80px;
+  }
+  
+  /* ==========================
+     Contact Form
+  ========================== */
+  .contact-form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    direction: rtl;
+    background-color: #ffffff;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 1200px;
+    margin: 40px auto;
+  }
+  
+  .wpcf7-form br {
+    display: none;
+  }
+  
+  .wpcf7 input,
+  .wpcf7 textarea {
+    padding: 8px;
+    border-radius: 7px;
+    box-sizing: border-box;
+  }
+  
+  .wpcf7 input[type="submit"] {
+    background-color: #4a90e2;
+    color: #fff;
+    padding: 14px;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    width: 150px;
+    box-shadow: inset 0 -2px 0 0 #ccc;
+  }
+  
+  .wpcf7 input[type="submit"]:hover {
+    background-color: #357ab8;
+  }
+  
+  /* ==========================
+     Details & Accordion
+  ========================== */
+  details {
+    background: #fafafa;
+    transition: all 0.3s ease;
+  }
+  
+  details[open] {
+    background: #f0f8ff;
+    border-color: #007bff;
+  }
+  
+  summary {
+    list-style: none;
+  }
+  
+  summary::marker {
+    display: none;
+  }
+  
+  summary::after {
+    content: "▼";
+    float: left;
+    transition: transform 0.3s;
+  }
+  
+  details[open] summary::after {
+    transform: rotate(-180deg);
+  }
+  
+  /* ==========================
+     Pagination
+  ========================== */
+  .pagination {
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+  }
+  
+  .pagination a:not(.prev-text):not(.next-text) {
+    border: 1px solid #ddd;
+    padding: 8px 16px;
+    text-decoration: none;
+    color: black;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .pagination .prev-button,
+  .pagination .next-button {
+    background-color: #3182CE;
+    color: white;
+    border: 1px solid #3182CE;
+    padding: 8px 16px;
+    border-radius: 4px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .pagination span.current {
+    background-color: #0073aa;
+    color: white;
+    border: 1px solid #0073aa;
+    padding: 8px 16px;
+    border-radius: 4px;
+  }
+  
+  .pagination .prev-button:hover,
+  .pagination .next-button:hover {
+    background-color: #1a5b8e;
+  }
+  
+  /* ==========================
+     Hero Banner
+  ========================== */
+  .hero-banner {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    max-height: 400px;
+  }
+  
+  .hero-banner .slides img {
+    width: 100%;
+    height: 100%;
+    display: none;
+    object-fit: cover;
+  }
+  
+  .hero-banner .slides img.active {
+    display: block;
+  }
+  
+  @media screen and (max-width: 1024px) {
+    .hero-banner {
+      max-height: 300px;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .hero-banner {
+      max-height: 250px;
+    }
+  }
+  
+  /*===========================
+    login and My-account
+  ===========================*/
+  /* تب‌های My Account افقی، بیضی و با هاور */
+.woocommerce-MyAccount-navigation {
+    display: flex !important;        /* نمایش افقی */
+    flex-wrap: wrap;                 /* اگه جا نشه به خط بعد میره */
+    justify-content: center;         /* وسط‌چین */
+    padding: 0 !important;
+    margin-bottom: 20px !important;
+    gap: 15px !important;
+}
+
+.woocommerce-MyAccount-navigation ul {
+    display: flex !important;
+    flex-direction: row !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    list-style: none !important;
+    gap: 15px !important;
+}
+
+.woocommerce-MyAccount-navigation li {
+    list-style: none !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.woocommerce-MyAccount-navigation li a {
+    display: block !important;
+    padding: 10px 20px !important;
+    background-color: #f7f7f7 !important; /* رنگ پیش‌فرض */
+    border: 1px solid #ddd !important;
+    border-radius: 9999px !important;    /* گوشه‌های بیضی */
+    text-decoration: none !important;
+    color: #333 !important;
+    font-weight: bold !important;
+    transition: background 0.3s, color 0.3s; /* افکت هاور */
+}
+
+.woocommerce-MyAccount-navigation li.is-active a {
+    background-color: #7092C5 !important;
+    color: white !important;
+}
+
+.woocommerce-MyAccount-navigation li a:hover {
+    background-color: #428EFF !important;
+    color: white !important;
+}
+
+/* محتوای تب‌ها */
+.woocommerce-MyAccount-content {
+    margin-top: 20px;
+    background: linear-gradient(135deg, #f9f9f9 0%, #ffffff 100%);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 10px 10px 8px rgba(0,0,0,0.05);
+}
+
+/* واکنش‌گرایی موبایل */
+@media (max-width: 768px) {
+    .woocommerce-MyAccount-navigation {
+        flex-direction: column !important;
+        gap: 10px !important;
+    }
+}
+
+
+/* جدول سفارش‌ها در حساب کاربری */
+.my_account_orders {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    font-family: inherit;
+}
+
+.my_account_orders thead {
+    background-color: #f5f5f5;
+}
+
+.my_account_orders th,
+.my_account_orders td {
+    padding: 12px 15px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+.my_account_orders th {
+    font-weight: bold;
+}
+
+.my_account_orders tr:nth-child(even) {
+    background-color: #fafafa;
+}
+
+.my_account_orders tr:hover {
+    background-color: #f0f8ff;
+}
+
+/*=======================
+    vendor chat
+=======================*/
+.vendor-chat-form-container {
+    direction: rtl; /* برای راست به چپ کردن فرم */
+    font-family: 'Vazirmatn', sans-serif; /* فونت مناسب فارسی */
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+.vendor-chat-form-container form {
+    display: grid;
+    gap: 15px;
+}
+
+.vendor-chat-form-container label {
+    font-weight: bold;
+    color: #555;
+    margin-bottom: -10px;
+}
+
+.vendor-chat-form-container input[type="text"],
+.vendor-chat-form-container input[type="email"],
+.vendor-chat-form-container input[type="file"],
+.vendor-chat-form-container textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box; /* برای جلوگیری از افزایش عرض */
+}
+
+.vendor-chat-form-container textarea {
+    min-height: 120px;
+    resize: vertical;
+}
+
+.vendor-chat-form-container button[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.vendor-chat-form-container button[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+.vendor-chat-message {
+    border-bottom: 1px dashed #ccc;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+    direction: rtl;
+    font-family: 'Vazirmatn', sans-serif;
+}
+
+.vendor-chat-message:last-child {
+    border-bottom: none;
+}
+/* لینک مشاهده سفارش */
+.my_account_orders a {
+    color: #0071a1;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.my_account_orders a:hover {
+    color: #004466;
+    text-decoration: underline;
+}
+
+/* واکنش‌گرا برای موبایل */
+@media (max-width: 768px) {
+    .my_account_orders thead {
+        display: none;
+    }
+    .my_account_orders tr {
+        display: block;
+        margin-bottom: 15px;
+        border-bottom: 2px solid #eee;
+    }
+    .my_account_orders td {
+        display: block;
+        text-align: right;
+        padding-left: 50%;
+        position: relative;
+    }
+    .my_account_orders td::before {
+        content: attr(data-label);
+        position: absolute;
+        left: 0;
+        width: 50%;
+        padding-left: 15px;
+        font-weight: bold;
+        text-align: left;
+    }
+}
+
+
+/* ==== استایل داشبورد حساب کاربری ==== */
+.woocommerce-account .woocommerce-MyAccount-content {
+    padding: 30px;
+    border-radius: 16px;
+   box-shadow: 0 2px 4px rgba(0,0,0,0.05),
+            0 6px 20px rgba(0,0,0,0.08);
+    margin-bottom: 30px;
+	border-top: 3px solid #ff6600;
+}
+
+/* تیتر داشبورد */
+.woocommerce-account .woocommerce-MyAccount-content h2 {
+display:none;
+}
+
+/* پاراگراف‌ها */
+.woocommerce-account .woocommerce-MyAccount-content p {
+    font-size: 16	px;
+    line-height: 1.7;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+/* خلاصه سفارش‌ها و کیف پول */
+.woocommerce-account .woocommerce-MyAccount-content p span {
+    font-weight: 600;
+    color: #7092c5;
+}
+
+/* لینک‌ها داخل داشبورد */
+.woocommerce-account .woocommerce-MyAccount-content a {
+    color: #ff6600;
+    font-weight: 500;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.woocommerce-account .woocommerce-MyAccount-content a:hover {
+    color: #7092c5;
+    text-decoration: underline;
+}
+
+/* کارت‌های کوچک (اگر بخوای برای نمایش خلاصه استفاده کنی) */
+.woocommerce-account .dashboard-card {
+    display: inline-block;
+    background: #f7f7f7;
+    padding: 15px 20px;
+    margin-right: 15px;
+    border-radius: 10px;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.05);
+    min-width: 150px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.woocommerce-account .dashboard-card h3 {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.woocommerce-account .dashboard-card p {
+    font-size: 16px;
+    color: #555;
+}
+
+/* تیتر آدرس‌ها */
+.woocommerce-account .woocommerce-MyAccount-content h2 {
+    display:none;
+}
+
+/* بخش آدرس‌ها */
+.woocommerce-account .woocommerce-MyAccount-content address {
+    display: block;
+    background: #f7f7f7;
+    padding: 15px 20px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.05);
+}
+
+/* لینک ویرایش آدرس */
+.woocommerce-account .woocommerce-MyAccount-content a.edit {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 6px 12px;
+    background-color: #ff6600;
+    color: #fff;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    font-weight: 500;
+}
+
+.woocommerce-account .woocommerce-MyAccount-content a.edit:hover {
+    background-color: #7092c5;
+    color: #fff;
+}
+
+/* فرم و فیلدهای آدرس */
+.woocommerce-account .woocommerce-MyAccount-content form input,
+.woocommerce-account .woocommerce-MyAccount-content form select,
+.woocommerce-account .woocommerce-MyAccount-content form textarea {
+    width: 100%;
+    max-width: 500px;
+    padding: 8px 12px;
+    margin-bottom: 15px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+/* دکمه ثبت آدرس */
+.woocommerce-account .woocommerce-MyAccount-content form button {
+    padding: 10px 20px;
+    background-color: #ff6600;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.woocommerce-account .woocommerce-MyAccount-content form button:hover {
+    background-color: #7092c5;
+}
+
+/* تیتر جزئیات حساب */
+.woocommerce-account .woocommerce-MyAccount-content h2 {
+    display:none;
+}
+
+/* فرم و فیلدهای جزئیات */
+.woocommerce-account .woocommerce-MyAccount-content form input,
+.woocommerce-account .woocommerce-MyAccount-content form select,
+.woocommerce-account .woocommerce-MyAccount-content form textarea {
+    width: 100%;
+    max-width: 500px;
+    padding: 10px 15px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+/* دکمه ذخیره تغییرات */
+.woocommerce-account .woocommerce-MyAccount-content form button {
+    padding: 10px 25px;
+    background-color: #ff6600;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.woocommerce-account .woocommerce-MyAccount-content form button:hover {
+    background-color: #7092c5;
+}
+
+
+/* استایل تب علاقه‌مندی‌ها */
+.woocommerce-account .woocommerce-account-wishlist {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 8px rgba(0,0,0,0.05);
+    margin-top: 20px;
+}
+
+.woocommerce-account .woocommerce-account-wishlist h2 {
+    display:none;
+}
+
+.woocommerce-account .woocommerce-account-wishlist p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+/* لیست محصولات به شکل کارت */
+.woocommerce-account .woocommerce-account-wishlist ul.products {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    list-style: none;
+    padding: 0;
+}
+
+.woocommerce-account .woocommerce-account-wishlist ul.products li.product {
+    background: #f7f7f7;
+    border-radius: 8px;
+    padding: 10px;
+    width: calc(33.33% - 10px);
+    box-sizing: border-box;
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.woocommerce-account .woocommerce-account-wishlist ul.products li.product:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.woocommerce-account .woocommerce-account-wishlist ul.products li.product img {
+    max-width: 100%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.woocommerce-account .woocommerce-account-wishlist ul.products li.product h2,
+.woocommerce-account .woocommerce-account-wishlist ul.products li.product .price {
+    margin: 5px 0;
+}
+
+
+.wallet-table {
+    width: 100%;
+    max-width: 800px;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.05);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.wallet-table thead {
+    background-color: #7092C5;
+    color: #fff;
+    text-align: center;
+}
+
+.wallet-table th, .wallet-table td {
+    padding: 12px 15px;
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+}
+
+.wallet-table tbody tr:nth-child(even) {
+    background-color: #f7f7f7;
+}
+
+.wallet-table tbody tr:hover {
+    background-color: #e0e7ff;
+}
+
+.wallet-table th {
+    font-weight: bold;
+}
+
+
+/* استایل بخش جزئیات سفارش -> محصولات */
+.woocommerce-table--order-details {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 15px;
+    background: #fff;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.05);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.woocommerce-table--order-details th,
+.woocommerce-table--order-details td {
+    padding: 14px 16px;
+    text-align: left;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.woocommerce-table--order-details th {
+    background: #f7f7f7;
+    font-weight: 600;
+    font-size: 14px;
+    color: #333;
+}
+
+.woocommerce-table--order-details td {
+    font-size: 14px;
+    color: #444;
+}
+
+.woocommerce-table--order-details tr:last-child td {
+    border-bottom: none;
+}
+
+/* هایلایت جمع کل */
+.woocommerce-table--order-details tfoot tr:last-child td,
+.woocommerce-table--order-details tfoot tr:last-child th {
+    font-weight: bold;
+    color: #000;
+    background: #fafafa;
+}
+.prsonal-info{
+	border: 1px solid black;
+	padding:12px;
+}
+.password-change{
+	border: 1px solid black;
+	padding:12px;
+	margin-top:18px
+}
+.show-password-input {
+  background: url('https://cdn-icons-png.flaticon.com/512/159/159604.png')
+no-repeat center center;
+  background-size:16px;
+	background-color:white;
+  border: none;
+  cursor: pointer;
+  width: 24px;
+  height: 28px;
+  text-indent: -9999px;
+}
+#shipping_address_2 {
+display:none;	
+}
+p.woocommerce-shipping-destination{
+	margin-bottom:12px;
+}
+.shipping-calculator-button{
+	background-color:#15803d;
+	color:white;
+	padding:5px 6px;
+	border-radius:7px;
+	margin-top:12px;
+}
+#calc_shipping_city{
+border:1px solid black;
+	padding-right:3px;
+}
+#calc_shipping_postcode{
+	border:1px solid black;
+	padding-right:3px;
+}
+#shipping-calculator-form{
+	margin-top:12px;
+}
+
+/* Container */
+#customer_login {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #f9f9f9;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+    font-family: 'Arial', sans-serif;
+}
+
+/* Columns */
+.u-column1, .u-column2 {
+    flex: 1 1 400px;
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.05);
+}
+
+/* Headings */
+#customer_login h2 {
+    font-size: 24px;
+    margin-bottom: 25px;
+    color: #333;
+    border-bottom: 2px solid #f0f0f0;
+    padding-bottom: 10px;
+}
+
+/* Form rows */
+.woocommerce-form-row {
+    margin-bottom: 20px;
+}
+
+.woocommerce-form-row label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: bold;
+    color: #555;
+}
+
+.woocommerce-form-row input[type="text"],
+.woocommerce-form-row input[type="password"],
+.woocommerce-form-row input[type="email"] {
+    width: 100%;
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    font-size: 14px;
+}
+
+.woocommerce-form-row input[type="text"]:focus,
+.woocommerce-form-row input[type="password"]:focus,
+.woocommerce-form-row input[type="email"]:focus {
+    border-color: #0071a1;
+    box-shadow: 0 0 5px rgba(0,113,161,0.3);
+    outline: none;
+}
+
+/* Buttons */
+.woocommerce-button {
+    background-color: #0071a1;
+    color: #fff !important;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: all 0.3s ease;
+}
+
+.woocommerce-button:hover {
+    background-color: #005f86;
+    transform: translateY(-2px);
+}
+
+/* Checkbox */
+.woocommerce-form__label-for-checkbox {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 14px;
+    color: #555;
+}
+
+.woocommerce-form__input-checkbox {
+    width: 16px;
+    height: 16px;
+}
+
+/* Lost password link */
+.woocommerce-LostPassword a {
+    font-size: 13px;
+    color: #0071a1;
+    text-decoration: none;
+}
+
+.woocommerce-LostPassword a:hover {
+    text-decoration: underline;
+}
+
+.woocommerce-MyAccount-navigation{
+	margin-top:6px;
+}
+
+/* ثبت محصول حساب کاربری */
+.woocommerce-account .woocommerce-MyAccount-content form *:not(label span) {
+    position: relative;
+}
+
+.form{
+	padding:36px;
+	border: 1px solid black;
+	width:700px;
+	margin:auto;
+}
+
+/* فاصله بین فیلدها */
+.woocommerce-account form p {
+    margin-bottom: 15px;
+}
+
+/* استایل فیلدها */
+.woocommerce-account form input[type="text"],
+.woocommerce-account form input[type="number"],
+.woocommerce-account form textarea {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* استایل فایل آپلود */
+.woocommerce-account form input[type="file"] {
+    margin-top: 5px;
+}
+
+/* دکمه ثبت */
+.woocommerce-account form input[type="submit"] {
+    background-color: #0071a1;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* هاور دکمه */
+.woocommerce-account form input[type="submit"]:hover {
+    background-color: #005f85;
+}
+
+/* برچسب‌ها */
+.woocommerce-account label {
+    font-weight: bold;
+}
+p.category{
+	display:block;
+	padding-right:5px!important;
+}
+
+/* ===== برگه درباره ما ===== */
+.page-about {
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 40px;
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+    font-family: 'Tahoma', sans-serif;
+    line-height: 1.7;
+    color: #333;
+}
+
+.page-about h1 {
+    text-align: center;
+    color: #2c7a7b;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.page-about h2 {
+    color: #2c7a7b;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    font-size: 1.7em;
+    border-bottom: 2px solid #e6f2f2;
+    padding-bottom: 8px;
+}
+
+.page-about p {
+    font-size: 1.1em;
+    margin-bottom: 15px;
+}
+
+.page-about ul {
+    list-style-type: disc;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.page-about li {
+    margin-bottom: 10px;
+}
+
+.page-about .contact-box {
+    margin-top: 30px;
+    padding: 25px;
+    background-color: #e6f2f2;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    transition: 0.3s;
+}
+
+.page-about .contact-box a {
+    color: #2c7a7b;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.page-about .contact-box a:hover {
+    text-decoration: underline;
+}
+
+/* استایل های دکمه درباره ما*/
+
+/* این بخش را در فایل CSS خود پیدا کرده و ویرایش کنید */
+.about-us-link {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  color: #f0f0f0; /* رنگ متن */
+  text-decoration: none;
+  position: relative;
+  transition: all 0.3s ease-in-out; /* تغییر transition برای همه خصوصیات */
+  padding: 10px 20px; /* افزایش padding برای فضای بیشتر */
+  border-radius: 6px;
+  display: inline-block;
+  background-color: #007bff; /* رنگ پس‌زمینه دکمه - مثلاً آبی */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* سایه اولیه برای برجسته‌سازی */
+  border: none; /* حذف border اگر وجود دارد */
+}
+
+/* استایل در حالت هاور (وقتی موس روی لینک قرار می‌گیرد) */
+.about-us-link:hover {
+  color: #ffffff;
+  background-color: #0056b3; /* رنگ پس‌زمینه در حالت هاور - کمی تیره‌تر */
+  transform: translateY(-3px); /* حرکت بیشتر به سمت بالا */
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3); /* سایه بزرگتر و پررنگ‌تر در هاور */
+}
+
+/* استایل برای ایجاد یک خط زیرین با افکت زیبا - این بخش را می‌توان حذف کرد اگر دکمه‌ای کامل می‌خواهید */
+.about-us-link::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: 0;
+  left: 50%;
+  background-color: #ffffff; /* رنگ خط زیرین در هاور */
+  transition: width 0.3s ease-in-out, left 0.3s ease-in-out;
+  transform: translateX(-50%);
+}
+
+.about-us-link:hover::after {
+  width: 100%;
+  left: 50%;
+}
+/* privacy policy*/
+.woocommerce-privacy-policy-text a {
+    color: #0073aa;
+    text-decoration: none;
+/*     border-bottom: 1px dashed #0073aa;  */
+    padding-bottom: 2px;
+}
+
+/* checkout */
+.wc-block-checkout {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 30px;
+}
+
+/* فرم صورتحساب */
+.wc-block-checkout__form {
+    background: #fff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+/* جعبه جمع‌بندی سفارش */
+.wc-block-components-main {
+    background: #fafafa;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+}
+
+/* فیلدهای ورودی */
+.wc-block-components-text-input input,
+.wc-block-components-text-input textarea,
+.wc-block-components-text-input select {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 14px;
+}
+
+/* دکمه ثبت سفارش */
+.wc-block-checkout__actions button {
+    background: #0073aa !important;
+    color: #fff !important;
+    font-size: 16px;
+    padding: 14px;
+    border-radius: 8px;
+    width: 100%;
+    border: none;
+}
+.wc-block-checkout__actions button:hover {
+    background: #005f8d !important;
+}
+/* کانتینر کلی */
+.wc-block-components-checkout-order-summary__content {
+    max-height: 0;
+    overflow: hidden;
+    transition: all 0.3s ease;
+    background: #fff;
+/* 		width:500px; */
+    border-radius: 0 0 12px 12px;
+    border: 1px solid #eee;
+}
+
+/* وقتی باز میشه */
+.wc-block-components-checkout-order-summary__content.is-open {
+    max-height: 1000px; /* عدد بزرگ برای باز شدن کامل */
+    padding: 15px;
+    box-shadow: inset 0 2px 6px rgba(0,0,0,0.05);
+}
+
+/* آیتم‌ها داخل لیست */
+.wc-block-components-checkout-order-summary__content .wc-block-components-order-summary-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-bottom: 1px solid #eee;
+}
+
+.wc-block-components-checkout-order-summary__content .wc-block-components-order-summary-item:last-child {
+    border-bottom: none;
+}
+
+/* نام محصول */
+.wc-block-components-order-summary-item__description {
+    font-size: 14px;
+    color: #444;
+}
+
+/* قیمت‌ها */
+.wc-block-components-order-summary-item__total {
+    font-weight: 600;
+    color: #222;
+}
+
+.wc-block-checkout * {
+    max-width: 1200px !important; 
+    box-sizing: border-box;
+	border-radius:10px;
+}
+
+.wc-block-checkout {
+    max-width: 900px;   /* عرض دلخواه */
+    margin: 40px auto;  /* بالا و پایین فاصله، چپ و راست اتومات وسط‌چین */
+    position: relative;
+    right: -75px;  /* عدد دلخواه، مثبت = میره راست */
+	border-radius:10px;
+}
+.wc-block-components-checkout-order-summary__title{
+	border-radius:10px;
+	background-color:white;
+}
+
+  /* ==========================
+     Responsive tables
+  ========================== */
+@media (max-width: 768px) {
+    .my_account_orders thead {
+      display: none;
+    }
+    .my_account_orders tr {
+      display: block;
+      margin-bottom: 15px;
+      border-bottom: 2px solid #eee;
+    }
+    .my_account_orders td {
+      display: block;
+      text-align: right;
+      padding-left: 50%;
+      position: relative;
+    }
+    .my_account_orders td::before {
+      content: attr(data-label);
+      position: absolute;
+      left: 0;
+      width: 50%;
+      padding-left: 15px;
+      font-weight: bold;
+      text-align: left;
+    }
+  }
+  
+  /* ==========================
+     Mobile adjustments
+  ========================== */
+
+ @media (max-width: 768px) {
+    .woocommerce-MyAccount-navigation {
+      flex-direction: column !important;
+      gap: 10px !important;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .wc-block-checkout {
+      display: block;
+    }
+  }
+  
+  /* ==========================
+     WooCommerce Products
+  ========================== */
+  .products.columns-4 {
+    display: grid;
+    gap: 20px;
+  }
+  
+  @media (max-width: 1024px) {
+    .products.columns-4 {
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .products.columns-4 {
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .products.columns-4 {
+    }
+  }
+  
+  /* ==========================
+     Product Card
+  ========================== */
+  ul.products li.product {
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.3s;
+  }
+  
+  ul.products li.product:hover {
+    transform: translateY(-5px);
+  }
+  
+  ul.products li.product img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  ul.products li.product h2 {
+    font-size: 1rem;
+    margin: 0 0 10px;
+    font-weight: 600;
+    color: #333;
+  }
+  
+  ul.products li.product .price {
+    font-size: 0.9rem;
+    color: #8c96d9;
+  }
+  
+  /* ==========================
+     Cart & Checkout
+  ========================== */
+  .woocommerce-cart table.cart {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 30px;
+  }
+  
+  .woocommerce-cart table.cart th,
+  .woocommerce-cart table.cart td {
+    padding: 12px 10px;
+    text-align: center;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .woocommerce-checkout #payment {
+    margin-top: 20px;
+  }
+  
+  /* ==========================
+     Buttons
+  ========================== */
+  .button,
+  .woocommerce a.button,
+  .woocommerce button.button {
+    background-color: #ff9900;
+    color: #fff;
+    padding: 12px 25px;
+    border-radius: 8px;
+    font-weight: 600;
+    transition: background 0.3s ease, transform 0.2s ease;
+    text-decoration: none;
+  }
+  
+  .button:hover,
+  .woocommerce a.button:hover,
+  .woocommerce button.button:hover {
+    background-color: #e68a00;
+    transform: scale(1.05);
+  }
+  
+  /* ==========================
+     Account Navigation
+  ========================== */
+.woocommerce-MyAccount-navigation {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 25px;
+  }
+  
+  .woocommerce-MyAccount-navigation a {
+    text-decoration: none;
+    color: #333;
+    padding: 10px 15px;
+    border-radius: 8px;
+    background-color: #f0f0f0;
+    transition: background 0.3s;
+  }
+  
+  .woocommerce-MyAccount-navigation a:hover {
+    background-color: #ddd;
+  }
+  
+  /* ==========================
+     Responsive Account Nav
+  ========================== */
+
+@media (max-width: 768px) {
+    .woocommerce-MyAccount-navigation {
+      flex-direction: column;
+    }
+  } 
+  
+  /* ==========================
+     Mobile Menu
+  ========================== */
+  .mobile-menu {
+    display: none;
+  }
+  
+  @media (max-width: 992px) {
+    .desktop-menu {
+      display: none;
+    }
+  
+    .mobile-menu {
+      display: block;
+    }
+  }
+  
+  /* ==========================
+     Footer Widgets
+  ========================== */
+  footer .widget {
+    margin-bottom: 20px;
+  }
+  
+  footer .widget-title {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+  
+  /* ==========================
+     Accordions / FAQs
+  ========================== */
+  .accordion {
+    background-color: #f8f8f8;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    padding: 12px 15px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .accordion:hover {
+    background-color: #e8e8e8;
+  }
+  
+  .accordion-content {
+    display: none;
+    padding: 10px 15px;
+    border-top: 1px solid #ddd;
+  }
+  
+  .accordion.active + .accordion-content {
+    display: block;
+  }
+  
+  /* ==========================
+     Media Queries for Small Devices
+  ========================== */
+  @media (max-width: 576px) {
+    .button,
+    .woocommerce a.button,
+    .woocommerce button.button {
+      padding: 10px 18px;
+      font-size: 0.9rem;
+    }
+  
+    .related.products ul.products {
+      gap: 10px;
+    }
+  
+    ul.products li.product {
+      padding: 10px;
+    }
+  
+    header {
+      padding: 0 10px;
+    }
+  
+    header img {
+      max-height: 35px;
+    }
+  
+    .container {
+      padding: 0 10px;
+    }
+  }
+  
+  *,
+*::before,
+*::after {
+  box-sizing: border-box;
+  max-width: 100%; /* المان‌ها از صفحه بیرون نزنن */
+}
+
+/* متن و صفحه */
+html {
+  font-size: 16px;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  line-height: 1.5;
+  word-wrap: break-word; /* متن طولانی بشکنه */
+  overflow-x: hidden;    /* اسکرول افقی حذف بشه */
+}
+
+/* تصاویر و ویدیو */
+img, video {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* جدول‌ها */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.table-wrapper {
+  overflow-x: auto;
+}
+
+/* فرم‌ها */
+input, select, textarea, button {
+  max-width: 100%;
+  font: inherit;
+}
+
+/* فلکس عمومی برای بخش‌ها */
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+/* نقاط شکست (mobile-first) */
+@media (min-width: 1024px) {
+  .grid {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media (max-width: 768px) {
+    .woocommerce-MyAccount-navigation {
+        flex-direction: column !important;
+        gap: 10px !important;
+    }
+
+    .woocommerce-MyAccount-navigation ul {
+        flex-direction: column !important;
+        width: 100%;
+    }
+
+    .woocommerce-MyAccount-navigation li a {
+        width: 100%;
+        text-align: center;
+    }
+}
