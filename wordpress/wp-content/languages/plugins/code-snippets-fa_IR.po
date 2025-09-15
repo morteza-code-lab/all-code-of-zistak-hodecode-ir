@@ -1,0 +1,1457 @@
+# Translation of Plugins - Code Snippets - Stable (latest release) in Persian
+# This file is distributed under the same license as the Plugins - Code Snippets - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2025-07-27 10:08:55+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/4.0.1\n"
+"Language: fa\n"
+"Project-Id-Version: Plugins - Code Snippets - Stable (latest release)\n"
+
+#: php/views/partials/list-table-notices.php:59
+msgid "Synced cloud data has been <strong>successfully</strong> refreshed."
+msgstr "داده‌های ابری همگام‌سازی شده <strong>با موفقیت</strong> به‌روزرسانی شده است."
+
+#: php/views/partials/list-table-notices.php:34
+msgid "Help"
+msgstr "راهنما"
+
+#: php/cloud/list-table-shared-ops.php:80
+msgid "Update Available"
+msgstr "بروزرسانی در دسترس است"
+
+#: php/views/welcome.php:180
+msgid "Partner image"
+msgstr "تصویر والد"
+
+#: php/views/welcome.php:177
+msgid "Go to Partner"
+msgstr "رفتن به شریک"
+
+#: php/views/welcome.php:172
+msgid "Partners and apps"
+msgstr "شرکا و برنامه ها"
+
+#: php/views/welcome.php:156
+msgid "Feature image"
+msgstr "تصویر ویژگی"
+
+#: php/views/welcome.php:148
+msgid "Helpful articles"
+msgstr "مقالات مفید"
+
+#: php/views/welcome.php:103
+msgid "Latest changes"
+msgstr "آخرین تغییرات"
+
+#: php/views/welcome.php:100
+msgid "Read the full changelog"
+msgstr "خواندن تمامی تغییرات"
+
+#: php/views/welcome.php:95
+msgid "Latest news image"
+msgstr "آخرین اخبار تصویری"
+
+#: php/views/welcome.php:85 php/views/welcome.php:153
+msgid "Read more"
+msgstr "خواندن بیشتر"
+
+#: php/views/welcome.php:82
+msgid "Latest news"
+msgstr "اخبار تازه"
+
+#: php/views/welcome.php:56
+msgid "Resources and <span>What's New</span>"
+msgstr "منابع و <span>چیزهای جدید</span>"
+
+#: php/views/welcome.php:54
+msgid "Code Snippets Logo"
+msgstr "لوگو کد اسنیپت"
+
+#: php/views/welcome.php:37
+msgid "Other"
+msgstr "دیگر"
+
+#: php/views/welcome.php:33
+msgid "Bug fixes"
+msgstr "رفع باگ"
+
+#: php/views/welcome.php:29
+msgid "Improvements"
+msgstr "بهبود ها"
+
+#: php/views/welcome.php:25
+msgid "New features"
+msgstr "ویژگی های جدید"
+
+#: php/admin-menus/class-welcome-menu.php:74
+msgid "Discord"
+msgstr "دیسکورد"
+
+#: php/admin-menus/class-welcome-menu.php:59
+msgid "Cloud"
+msgstr "ابر"
+
+#: php/admin-menus/class-welcome-menu.php:29
+msgid "Welcome to Code Snippets"
+msgstr "به کد اسنیپت خوش آمدید"
+
+#: php/admin-menus/class-welcome-menu.php:28
+msgctxt "menu label"
+msgid "What's New"
+msgstr "تغییرات جدید"
+
+#: php/settings/settings.php:282
+msgid "Successfully reset snippets caches."
+msgstr "حافظه پنهان با موفقیت بازنشانی شد."
+
+#: php/settings/settings-fields.php:80
+msgid "Use this button to manually clear snippets caches."
+msgstr "از این دکمه برای پاک کردن دستی حافظه پنهان استفاده کنید."
+
+#: php/settings/settings-fields.php:78
+msgid "Reset Caches"
+msgstr "ریست کردن کش"
+
+#: php/settings/settings.php:266
+msgid "Successfully performed database table upgrade."
+msgstr "ارتقای جدول پایگاه داده با موفقیت انجام شد."
+
+#: php/settings/settings.php:141
+msgid "Debug"
+msgstr "اشکال زادیی"
+
+#: php/settings/settings-fields.php:75
+msgid "Use this button to manually upgrade the Code Snippets database table. This action will only affect the snippets table and should be used only when necessary."
+msgstr "از این دکمه برای ارتقاء دستی جدول پایگاه داده Code Snippets استفاده کنید. این عمل فقط بر روی جدول قطعات تاثیر می گذارد و باید فقط در صورت لزوم استفاده شود."
+
+#: php/settings/settings-fields.php:74
+msgid "Upgrade Database Table"
+msgstr "ارتقاء جدول پایگاه داده"
+
+#: php/settings/settings-fields.php:72
+msgid "Database Table Upgrade"
+msgstr "ارتقای جدول پایگاه داده"
+
+#: php/admin-menus/class-welcome-menu.php:69 php/class-admin.php:166
+msgid "Community"
+msgstr "جامعه"
+
+#: php/class-admin.php:160
+msgid "Docs and Support"
+msgstr "اسناد و پشتیبانی"
+
+#: php/admin-menus/class-manage-menu.php:88
+msgctxt "top-level menu label"
+msgid "Go Pro"
+msgstr "رفتن به نسخه پرو"
+
+#: php/views/partials/cloud-search.php:56
+msgid "e.g. Remove unused javascript…"
+msgstr "به عنوان مثال، حذف جاوا اسکریپت استفاده نشده…"
+
+#: php/views/partials/cloud-search.php:51
+msgid "Name of codevault"
+msgstr "نام کد والت"
+
+#: php/views/partials/cloud-search.php:48
+msgid "Search by keyword(s)"
+msgstr "جستجو بر اساس کلمات کلیدی"
+
+#: php/views/partials/cloud-search.php:42
+#: php/views/partials/cloud-search.php:59
+msgid "Search Cloud"
+msgstr "ابر جستجو"
+
+#: php/views/partials/cloud-search.php:33
+msgid "Search cloud snippets"
+msgstr "جستجوی قطعات ابری"
+
+#: php/views/partials/cloud-search.php:26
+msgid "(Note: codevault name is case and spelling sensitive and only public snippets will be shown)"
+msgstr "(توجه: نام codevault به حروف بزرگ و املایی حساس است و فقط قطعات عمومی نشان داده خواهد شد)"
+
+#: php/views/partials/cloud-search.php:23
+msgid "Use the search bar below to search cloud snippets by entering either the name of a codevault or keywords."
+msgstr "از نوار جستجوی زیر برای جستجوی تکه‌های ابری با وارد کردن نام کد یا کلمات کلیدی استفاده کنید."
+
+#: php/views/manage.php:96
+msgid "Learn more about Code Snippets Cloud &rarr;"
+msgstr "درباره کد قطعه ابری بیشتر بیاموزید &rarr;"
+
+#: php/views/manage.php:95
+msgid "See all your public and private snippets that are stored in your Code Snippet Cloud codevault."
+msgstr "همه قطعه‌های عمومی و خصوصی‌تان را که در ابر قطعه کد ذخیره شده‌اند، ببینید."
+
+#: php/views/manage.php:91
+msgid "Learn more about javascript snippets &rarr;"
+msgstr "درباره قطعات جاوا اسکریپت بیشتر بیاموزید &rarr;"
+
+#: php/views/manage.php:86
+msgid "Learn more about style snippets &rarr;"
+msgstr "درباره اسنیپت های سبک بیشتر بیاموزید &rarr;"
+
+#: php/views/manage.php:81
+msgid "Learn more about content snippets &rarr;"
+msgstr "درباره قطعات محتوا بیشتر بیاموزید &rarr;"
+
+#: php/views/manage.php:76
+msgid "Learn more about function snippets &rarr;"
+msgstr "درباره قطعات تابع بیشتر بدانید &rarr;"
+
+#: php/class-admin.php:391 php/views/manage.php:64
+msgid "Find more about Pro (opens in external tab)"
+msgstr "درباره حرفه ای بیشتر بیابید (در برگه خارجی باز می شود)"
+
+#: php/cloud/list-table-shared-ops.php:225
+msgid "Last page"
+msgstr "آخرین صفحه"
+
+#: php/cloud/list-table-shared-ops.php:214
+msgid "Next page"
+msgstr "صفحه بعدی"
+
+#. translators: 1: Current page, 2: Total pages.
+#: php/cloud/list-table-shared-ops.php:205
+msgctxt "paging"
+msgid "%1$s of %2$s"
+msgstr "%1$s از %2$s"
+
+#: php/cloud/list-table-shared-ops.php:189
+#: php/cloud/list-table-shared-ops.php:195
+msgid "Current page"
+msgstr "صفحه فعلی"
+
+#: php/cloud/list-table-shared-ops.php:183
+msgid "Previous page"
+msgstr "صفحه قبلی"
+
+#: php/cloud/list-table-shared-ops.php:173
+msgid "First page"
+msgstr "صفحه اول"
+
+#. translators: %s: Number of items.
+#: php/cloud/list-table-shared-ops.php:140
+msgid "%s item"
+msgid_plural "%s items"
+msgstr[0] "%s مورد"
+
+#: php/cloud/list-table-shared-ops.php:123
+msgid "Preview"
+msgstr "پیش‌ نمایش"
+
+#: php/cloud/list-table-shared-ops.php:86
+msgid "View"
+msgstr "نمایش"
+
+#: php/cloud/class-cloud-search-list-table.php:276
+msgid "Please enter a term to start searching code snippets in the cloud."
+msgstr "لطفاً یک عبارت برای شروع جستجوی قطعه کد در ابر وارد کنید."
+
+#: php/cloud/class-cloud-search-list-table.php:273
+msgid "No snippets or codevault could be found with that search term. Please try again."
+msgstr "هیچ قطعه یا کدی با آن عبارت جستجو یافت نشد. لطفا دوباره تلاش کنید."
+
+#. translators: %s: tested status.
+#: php/cloud/class-cloud-search-list-table.php:242
+msgid "Author states %s"
+msgstr "نویسنده %s را بیان می کند"
+
+#: php/cloud/class-cloud-search-list-table.php:236
+msgid "Not indicated by author"
+msgstr "توسط نویسنده نشان داده نشده است"
+
+#: php/cloud/class-cloud-search-list-table.php:115
+msgid "Snippet has passed basic review."
+msgstr "Snippet بررسی اولیه را پشت سر گذاشته است."
+
+#: php/cloud/class-cloud-search-list-table.php:211
+msgid "Last Updated:"
+msgstr "اخرین به روز رسانی:"
+
+#. translators: 1: number of votes with label, 2: number of users with label.
+#: php/cloud/class-cloud-search-list-table.php:206
+msgctxt "votes"
+msgid "%1$s by %2$s"
+msgstr "%1$s توسط %2$s"
+
+#. translators: 1: number of users.
+#: php/cloud/class-cloud-search-list-table.php:202
+msgid "%d user"
+msgid_plural "%d users"
+msgstr[0] "%d کاربر"
+
+#. translators: 1: number of votes.
+#: php/cloud/class-cloud-search-list-table.php:198
+msgctxt "vote count"
+msgid "%d time"
+msgid_plural "%d times"
+msgstr[0] "%d زمان"
+
+#: php/cloud/class-cloud-search-list-table.php:146
+msgid "Preview this snippet"
+msgstr "پیش نمایش این قطعه"
+
+#: php/cloud/class-cloud-api.php:509
+msgid "Snippet Code:"
+msgstr "کد قطعه:"
+
+#: php/cloud/class-cloud-api.php:474
+msgid "Pro Verified"
+msgstr "تایید حرفه ای"
+
+#: php/cloud/class-cloud-api.php:473
+msgid "AI Verified"
+msgstr "تایید شده هوش مصنوعی"
+
+#: php/cloud/class-cloud-api.php:472
+msgid "Unverified"
+msgstr "تایید نشده"
+
+#: php/cloud/class-cloud-api.php:471
+msgid "Public"
+msgstr "عمومی"
+
+#: php/cloud/class-cloud-api.php:470
+msgid "Private"
+msgstr "خصوصی"
+
+#: php/cloud/class-cloud-api.php:402
+msgid "Updated"
+msgstr "به‌روز شد"
+
+#: php/cloud/class-cloud-api.php:336
+msgid "Invalid action."
+msgstr "اقدام نامعتبر"
+
+#: php/class-plugin.php:344
+msgid "Bundles"
+msgstr "بسته‌ها"
+
+#: php/class-plugin.php:342
+msgid "Codevault"
+msgstr "Codevault"
+
+#: php/class-plugin.php:343
+msgid "Cloud Search"
+msgstr "جستجوی ابری"
+
+#: php/class-admin.php:326
+msgid "AI"
+msgstr "هوش مصنوعی"
+
+#: php/strings.php:52
+msgid "Select a snippet to display"
+msgstr "یک قطعه را برای نمایش انتخاب کنید"
+
+#: php/strings.php:51
+msgid "Font Size"
+msgstr "اندازه قلم"
+
+#: php/strings.php:50
+msgid "Height"
+msgstr "ارتفاع"
+
+#: php/strings.php:49
+msgid "Off"
+msgstr "غیرفعال"
+
+#: php/strings.php:48
+msgid "On"
+msgstr "فعال"
+
+#: php/strings.php:47
+msgid "Word Wrap"
+msgstr "بسته بندی کلمات"
+
+#: php/strings.php:46
+msgid "Highlight Lines"
+msgstr "خطوط برجسته"
+
+#: php/strings.php:45
+msgid "Scripts (JS)"
+msgstr "اسکریپت ها (JS)"
+
+#: php/strings.php:44
+msgid "Styles (CSS)"
+msgstr "سبک ها (CSS)"
+
+#: php/strings.php:43
+msgid "Content (Mixed)"
+msgstr "محتوا (ترکیب)"
+
+#: php/strings.php:42
+msgid "Functions (PHP)"
+msgstr "توابع (PHP)"
+
+#: php/strings.php:41
+msgid "Code Snippet Source"
+msgstr "منبع قطعه کد"
+
+#: php/strings.php:38
+msgid "Select a snippet to show"
+msgstr "یک قطعه را برای نمایش انتخاب کنید"
+
+#: php/strings.php:37
+msgid "Text Color"
+msgstr "رنگ متن"
+
+#: php/strings.php:36
+msgid "Justified"
+msgstr "تعدیل شده"
+
+#: php/strings.php:35
+msgid "Right"
+msgstr "راست"
+
+#: php/strings.php:34
+msgid "Center"
+msgstr "وسط"
+
+#: php/strings.php:33
+msgid "Left"
+msgstr "چپ"
+
+#: php/strings.php:32
+msgid "Alignment"
+msgstr "هم ترازی"
+
+#: php/strings.php:31
+msgid "Processing Options"
+msgstr "گزینه های پردازش"
+
+#: php/strings.php:27
+msgid "JavaScript loaded just before the closing &amp;lt;/body&amp;gt; tag"
+msgstr "جاوا اسکریپت درست قبل از بسته شدن &amp;lt;/body&amp;gt; برچسب زدن"
+
+#: php/strings.php:26
+msgid "JavaScript loaded in the site &amp;lt;head&amp;gt; section"
+msgstr "جاوا اسکریپت بارگذاری شده در سایت &amp;lt;head&amp;gt; بخش"
+
+#: php/strings.php:25
+msgid "Administration area stylesheet"
+msgstr "شیوه نامه منطقه مدیریت"
+
+#: php/strings.php:24
+msgid "Site front-end stylesheet"
+msgstr "استایل های جلویی سایت"
+
+#: php/strings.php:21
+msgid "View Full Script"
+msgstr "مشاهده اسکریپت کامل"
+
+#: php/strings.php:20
+msgid "View Full Stylesheet"
+msgstr "مشاهده استایل شیت کامل"
+
+#: php/strings.php:16
+msgid "Minify Snippet Output"
+msgstr "کوچک کردن خروجی قطعه"
+
+#: php/strings.php:12
+msgid "Thanks"
+msgstr "با تشکر"
+
+#: php/strings.php:11
+msgid "Notice"
+msgstr "یادداشت‌ها"
+
+#: php/strings.php:10
+msgid "Success"
+msgstr "موفقیت آمیز"
+
+#: php/strings.php:8
+msgid "You can now safely remove the free version of Code Snippets"
+msgstr "اکنون می توانید با خیال راحت نسخه رایگان Code Snippets را حذف کنید"
+
+#: php/snippet-ops.php:314
+msgid "Could not activate snippet."
+msgstr "قطعه فعال نشد"
+
+#: php/snippet-ops.php:302
+msgid "Could not activate snippet: code did not pass validation."
+msgstr "قطعه قطعه فعال نشد: کد اعتبارسنجی را تصویب نکرد."
+
+#. translators: %d: snippet identifier.
+#: php/snippet-ops.php:297
+msgid "Could not locate snippet with ID %d."
+msgstr "قطعه با شناسه %d یافت نشد."
+
+#: php/settings/settings-fields.php:208
+msgid "Sublime Text"
+msgstr "متن زیر"
+
+#: php/settings/settings-fields.php:207
+msgid "Emacs"
+msgstr "ایمَکس"
+
+#: php/settings/settings-fields.php:203
+msgid "The set of keyboard shortcuts to use in the code editor."
+msgstr "مجموعه ای از میانبرهای صفحه کلید برای استفاده در ویرایشگر کد."
+
+#: php/settings/settings-fields.php:173
+msgid "Allow folding functions or other blocks into a single line."
+msgstr "تا کردن توابع یا بلوک های دیگر را در یک خط مجاز کنید."
+
+#: php/settings/settings-fields.php:167
+msgid "Soft-wrap long lines of code instead of horizontally scrolling."
+msgstr "به جای پیمایش افقی، خطوط طولانی کد را نرم بپیچید."
+
+#: php/settings/settings-fields.php:159
+msgid "The number of spaces to indent a block."
+msgstr "تعداد فاصله برای تورفتگی یک بلوک."
+
+#: php/settings/settings-fields.php:152 php/settings/settings-fields.php:160
+msgctxt "unit"
+msgid "spaces"
+msgstr "فاصله"
+
+#: php/settings/settings-fields.php:121
+msgid "Disable syntax highlighting when displaying snippet code on the front-end."
+msgstr "هنگام نمایش کد قطعه در قسمت جلویی، برجسته کردن نحو را غیرفعال کنید."
+
+#: php/settings/settings-fields.php:119
+msgid "Disable Syntax Highlighter"
+msgstr "برجسته کننده نحو را غیرفعال کنید"
+
+#: php/settings/settings-fields.php:103
+msgctxt "unit"
+msgid "rows"
+msgstr "ردیف‌ها"
+
+#: php/settings/settings-fields.php:101
+msgid "Description Editor Height"
+msgstr "ارتفاع ویرایشگر توضیحات"
+
+#: php/settings/editor-preview.php:75 php/settings/settings-fields.php:205
+msgid "Default"
+msgstr "پیشفرض"
+
+#: php/rest-api/class-snippets-rest-controller.php:544
+msgid "Date and time when the snippet was last modified, in ISO format."
+msgstr "تاریخ و زمان آخرین تغییر قطعه، در قالب ISO."
+
+#: php/rest-api/class-snippets-rest-controller.php:540
+msgid "If a network snippet, whether can be activated on discrete sites instead of network-wide."
+msgstr "اگر یک قطعه شبکه، می‌تواند در سایت‌های مجزا به جای شبکه گسترده فعال شود."
+
+#: php/rest-api/class-snippets-rest-controller.php:535
+msgid "Whether the snippet is network-wide instead of site-wide."
+msgstr "این که قطعه به‌جای سرتاسر سایت، در سراسر شبکه باشد."
+
+#: php/rest-api/class-snippets-rest-controller.php:531
+msgid "Relative priority in which the snippet is executed."
+msgstr "اولویت نسبی که قطعه در آن اجرا می شود."
+
+#: php/rest-api/class-snippets-rest-controller.php:527
+msgid "Snippet activation status."
+msgstr "وضعیت فعال‌سازی قطعه"
+
+#: php/rest-api/class-snippets-rest-controller.php:519
+msgid "Context in which the snippet is executable."
+msgstr "زمینه ای که قطعه در آن قابل اجرا است."
+
+#: php/rest-api/class-snippets-rest-controller.php:512
+msgid "List of tag categories the snippet belongs to."
+msgstr "فهرست دسته‌های برچسبی که قطعه به آن تعلق دارد."
+
+#: php/rest-api/class-snippets-rest-controller.php:508
+msgid "Executable snippet code."
+msgstr "کد قطعه اجرایی"
+
+#: php/rest-api/class-snippets-rest-controller.php:504
+msgid "Descriptive text associated with snippet."
+msgstr "متن توصیفی مرتبط با قطعه."
+
+#: php/rest-api/class-snippets-rest-controller.php:500
+msgid "Descriptive title for the snippet."
+msgstr "عنوان توصیفی برای قطعه"
+
+#: php/rest-api/class-snippets-rest-controller.php:495
+msgid "Unique identifier for the snippet."
+msgstr "شناسه منحصر به فرد برای قطعه."
+
+#: php/rest-api/class-snippets-rest-controller.php:339
+msgid "The snippet could not be deactivated."
+msgstr "قطعه را نمی توان غیرفعال کرد."
+
+#: php/rest-api/class-snippets-rest-controller.php:299
+msgid "The snippet could not be deleted."
+msgstr "قطعه را نمی توان حذف کرد."
+
+#: php/rest-api/class-snippets-rest-controller.php:279
+msgid "The snippet could not be updated."
+msgstr "قطعه به‌روزرسانی نمی‌شود."
+
+#: php/rest-api/class-snippets-rest-controller.php:264
+msgid "Cannot update a snippet without a valid ID."
+msgstr "نمی توان یک قطعه بدون شناسه معتبر را به روز کرد."
+
+#: php/rest-api/class-snippets-rest-controller.php:245
+msgid "The snippet could not be created."
+msgstr "قطعه را نمی توان ایجاد کرد."
+
+#: php/rest-api/class-snippets-rest-controller.php:221
+msgid "The snippet could not be found."
+msgstr "قطعه یافت نشد."
+
+#: php/views/manage.php:90
+msgid "Script snippets are loaded on the site front-end in a JavaScript file, either in the head or body sections."
+msgstr "تکه‌های اسکریپت در قسمت جلویی سایت در یک فایل جاوا اسکریپت، چه در بخش head یا body، بارگذاری می‌شوند."
+
+#: php/views/manage.php:85
+msgid "Style snippets are written in CSS and loaded in the admin area or on the site front-end, just like the theme style.css."
+msgstr "اسنیپت‌های سبک در CSS نوشته می‌شوند و در قسمت مدیریت یا در قسمت جلویی سایت بارگذاری می‌شوند، درست مانند پوسته style.css."
+
+#: php/class-list-table.php:489 dist/edit.js:2
+msgid "Export Code"
+msgstr "کد برون‌بری"
+
+#: php/class-admin.php:165
+msgid "Join our community on Facebook"
+msgstr "به انجمن ما در فیس بوک بپیوندید"
+
+#: php/admin-menus/class-edit-menu.php:115
+msgid "Loading edit page…"
+msgstr "در حال بارگیری صفحه ویرایش…"
+
+#: php/views/partials/list-table.php:22
+msgid "Search Snippets"
+msgstr "جستجوی کد"
+
+#: php/views/manage.php:23
+msgid "All Snippets"
+msgstr "همه کد ها"
+
+#: php/settings/settings-fields.php:196
+msgid "Highlight the line that is currently being edited."
+msgstr "خطی که در حال ویرایش است را برجسته کنید."
+
+#: php/settings/settings-fields.php:195
+msgid "Highlight Active Line"
+msgstr "برجسته کردن خط فعال"
+
+#: php/settings/settings-fields.php:115
+msgid "Modified (oldest first)"
+msgstr "ویرایش شده (از قدیمی تر)"
+
+#: php/settings/settings-fields.php:114
+msgid "Modified (latest first)"
+msgstr "ویرایش شده (از تازه تر)"
+
+#: php/settings/settings-fields.php:113
+msgid "Name (Z-A)"
+msgstr "نام (نزولی)"
+
+#: php/settings/settings-fields.php:112
+msgid "Name (A-Z)"
+msgstr "نام (صعودی)"
+
+#: php/settings/settings-fields.php:109
+msgid "Default way to order snippets on the All Snippets admin menu."
+msgstr "روش پیش‌فرض برای سفارش قطعات در منوی مدیریت همه اسنیپت ها."
+
+#: php/settings/settings-fields.php:107
+msgid "Snippets List Order"
+msgstr "ترتیب فهرست کدها"
+
+#: php/front-end/mce-strings.php:28
+msgid "Show line numbers"
+msgstr "نمایش شماره خط"
+
+#: php/front-end/mce-strings.php:27
+msgid "Insert Snippet Source"
+msgstr "درج منبع کد"
+
+#: php/front-end/mce-strings.php:26
+msgid "Snippet Source Code"
+msgstr "سورس کد اسنیپت"
+
+#: php/front-end/mce-strings.php:24
+msgid "Enable shortcodes"
+msgstr "فعال سازی شورتکد"
+
+#: php/front-end/mce-strings.php:23
+msgid "Apply formatting"
+msgstr "اعمال ساختار"
+
+#: php/front-end/mce-strings.php:22
+msgid "Run PHP code"
+msgstr "اجرای کد PHP"
+
+#: php/front-end/mce-strings.php:21
+msgid "Snippet"
+msgstr "کد"
+
+#: php/front-end/mce-strings.php:20
+msgid "Insert Content Snippet"
+msgstr "وارد کردن کد محتوا"
+
+#: php/front-end/mce-strings.php:19
+msgid "Content Snippet"
+msgstr "قطعه کد"
+
+#. translators: %d: snippet ID.
+#: php/front-end/class-front-end.php:207
+msgid "Could not load snippet with an invalid ID: %d."
+msgstr "قطعه با شناسه نامعتبر بارگیری نشد: %d."
+
+#: php/class-upgrade.php:213
+msgid "Shortcode for inserting the current year into a post or page.."
+msgstr "کد کوتاه برای درج سال جاری در یک پست یا صفحه.."
+
+#: php/class-upgrade.php:211
+msgid "Current year"
+msgstr "سال فعلی"
+
+#: php/class-upgrade.php:207
+msgid "Allows smiley conversion in obscure places."
+msgstr "امکان تبدیل شکلک در مکان های مبهم را فراهم می کند."
+
+#: php/class-upgrade.php:205
+msgid "Allow smilies"
+msgstr "اجازه دادن به شکلک ها"
+
+#: php/class-upgrade.php:200
+msgid "Turns off the WordPress admin bar for everyone except administrators."
+msgstr "پنهان کردن نوار مدیریت وردپرس از همه کاربران به استثنا مدیرسایت"
+
+#: php/class-upgrade.php:198
+msgid "Disable admin bar"
+msgstr "نوار مدیریت را غیرفعال کنید"
+
+#: php/class-upgrade.php:194
+msgid "Makes sure that image and file uploads have lowercase filenames."
+msgstr "مطمئن می شود که تصاویر و فایل های آپلود شده دارای نام های کوچک هستند."
+
+#: php/class-upgrade.php:192
+msgid "Make upload filenames lowercase"
+msgstr "کوچک کردن نام فایل های آپلودی"
+
+#: php/class-upgrade.php:188
+msgid "This is a sample snippet. Feel free to use it, edit it, or remove it."
+msgstr "این یک قطعه کد است. رایگان از آن استفاده کنید، آن را ویرایش کنید یا حذف کنید."
+
+#: php/class-snippet.php:333
+msgid "Front-end styles"
+msgstr "استایل فرانت اند"
+
+#: php/class-snippet.php:331
+msgid "Admin styles"
+msgstr "استایل های پنل مدیریت"
+
+#: php/class-snippet.php:329
+msgid "Footer content"
+msgstr "محتوای فوتر"
+
+#: php/class-snippet.php:327
+msgid "Head content"
+msgstr "محتوای هدر"
+
+#: php/class-snippet.php:323
+msgid "Single-use function"
+msgstr "عملکرد یکبار مصرف"
+
+#: php/class-snippet.php:319
+msgid "Admin function"
+msgstr "تابع پنل مدیریت"
+
+#: php/class-snippet.php:317
+msgid "Global function"
+msgstr "تابع سراسری"
+
+#: php/class-plugin.php:341 dist/edit.js:2
+msgid "Scripts"
+msgstr "اسکریپت ها"
+
+#: php/class-plugin.php:340 dist/edit.js:2
+msgid "Styles"
+msgstr "استایل ها"
+
+#: php/views/manage.php:80
+msgid "Content snippets are bits of reusable PHP and HTML content that can be inserted into posts and pages."
+msgstr "تکه‌های محتوا، بیت‌هایی از محتوای PHP و HTML قابل استفاده مجدد هستند که می‌توانند در پست‌ها و صفحات درج شوند."
+
+#: php/views/manage.php:75
+msgid "Function snippets are run on your site as if there were in a plugin or theme functions.php file."
+msgstr "قطعه های تابع در سایت شما به گونه ای اجرا می شوند که گویی در یک افزونه یا پوسته فایل functions.php وجود دارد."
+
+#: php/class-plugin.php:339 php/class-snippet.php:325 dist/edit.js:2
+msgid "Content"
+msgstr "محتوا"
+
+#: php/class-plugin.php:338 dist/edit.js:2
+msgid "Functions"
+msgstr "توابع"
+
+#: php/class-list-table.php:891
+msgid "It looks like you don't have any snippets of this type."
+msgstr "به نظر می‌رسد شما هیچ قطعه‌ کدی از این نوع ندارید."
+
+#: php/class-list-table.php:438
+msgid "Type"
+msgstr "نوع"
+
+#: php/class-contextual-help.php:144
+msgid "If something goes wrong with a snippet, and you can't use WordPress, you can cause all snippets to stop executing by turning on <strong>safe mode</strong>."
+msgstr ""
+"اگر مشکلی در قطعه‌ای پیش بیاید و نتوانید از وردپرس استفاده کنید، می‌توانید با روشن کردن\n"
+"<strong>safe mode</strong>\n"
+" حالت ایمن باعث توقف اجرای تمام قطعه‌ها شوید."
+
+#: php/class-admin.php:217
+msgid "Active Snippets"
+msgstr "کدهای فعال"
+
+#. translators: %s: formatted last modified date
+#: php/class-admin.php:200
+msgid "Last modified %s"
+msgstr "آخرین اصلاح %s"
+
+#: php/admin-menus/class-manage-menu.php:94
+#: php/admin-menus/class-welcome-menu.php:82 php/class-admin.php:131
+msgid "Upgrade to Pro"
+msgstr "آپدیت به پیشرفته"
+
+#: php/class-admin.php:130
+msgid "Upgrade to Code Snippets Pro"
+msgstr "به اسنیپت کد پیشرفته ارتقا دهید"
+
+#: php/class-admin.php:159
+msgid "Find out how to get support with Code Snippets"
+msgstr "نحوه دریافت پشتیبانی با قطعه کد را بیاموزید"
+
+#: php/class-admin.php:113
+msgid "Change plugin settings"
+msgstr "تنظیمات افزونه را تغییر دهید"
+
+#. translators: %s: Update PHP URL.
+#: php/deactivation-notice.php:40
+msgid "Please <a href=\"%s\">upgrade your server to the latest version of PHP</a> to continue using Code Snippets."
+msgstr "لطفاً برای ادامه استفاده از کد، <a href=\"%s\">سرور خود را به آخرین نسخه PHP ارتقا دهید</a>."
+
+#. translators: %s: required PHP version number.
+#: php/deactivation-notice.php:32
+msgid "Code Snippets requires PHP %s or later."
+msgstr "قطعه کد به PHP 5.6 یا بالاتر نیاز دارد."
+
+#: php/deactivation-notice.php:50
+msgid "Another version of Code Snippets appears to be installed. Deactivating this version."
+msgstr "ظاهرا یک نسخه دیگر از کد اسنیپت قبلا نصب شده است. غیرفعالسازی این نسخه."
+
+#. translators: %s: PHP identifier name
+#: php/class-validator.php:220
+msgid "Cannot redeclare %s."
+msgstr "%s قابل بازخوانی نیست."
+
+#. translators: %s: PHP interface name
+#: php/class-validator.php:216
+msgid "Cannot redeclare interface %s."
+msgstr "%s قابل بازخوانی رابط کاربری نیست."
+
+#. translators: %s: PHP class name
+#: php/class-validator.php:212
+msgid "Cannot redeclare class %s."
+msgstr "%s قابل بازخوانی کلاس نیست."
+
+#. translators: %s: PHP function name
+#: php/class-validator.php:208
+msgid "Cannot redeclare function %s."
+msgstr "%s قابل بازخوانی تابع نیست."
+
+#: php/class-validator.php:195 php/class-validator.php:258
+msgid "Parse error: syntax error, unexpected end of snippet."
+msgstr "خطای تحلیلی: syntax error, unexpected end of snippet"
+
+#. translators: 1: search query, 2: line number.
+#: php/class-list-table.php:1276
+msgid " for &ldquo;%1$s&rdquo; on line %2$d"
+msgstr "برای &ldquo;%1$s&rdquo; در خط %2$d"
+
+#: php/class-list-table.php:883
+msgid "No snippets were found matching the current search query. Please enter a new query or use the \"Clear Filters\" button above."
+msgstr "اسنیپت ای با این عنوان پیدا نشد. لطفا عنوان جدیدی وارد کنید و یا از دکمه \"حذف فیلتر ها\" در بالا استفاده کنید."
+
+#: php/class-list-table.php:441
+msgid "Modified"
+msgstr "اصلاح شده"
+
+#. translators: 1: date format, 2: time format.
+#: php/class-snippet.php:447
+msgctxt "date and time format"
+msgid "%1$s at %2$s"
+msgstr "%1$s \\a\\t %2$s"
+
+#: php/class-snippet.php:439
+msgid "Y/m/d"
+msgstr "Y/m/d"
+
+#. translators: %s: Human-readable time difference.
+#: php/class-snippet.php:437 php/cloud/class-cloud-search-list-table.php:214
+msgid "%s ago"
+msgstr "%s قبل"
+
+#: php/class-contextual-help.php:186
+msgid "Here you can load snippets from a code snippets export file into the database alongside existing snippets."
+msgstr "در اینجا میتوانید تکه کدهای برون بری شده را در کنار تکه کدهای قبلی در پایگاه داده بارگذاری نمایید."
+
+#: php/class-contextual-help.php:160
+msgid "Here you can add a new snippet, or edit an existing one."
+msgstr "در اینجا میتوانید یک تکه کد اسنیپت جدید اضافه کنید، یا قدیمی ها را ویرایش کنید."
+
+#: php/class-contextual-help.php:136
+msgid "Here you can manage your existing snippets and perform tasks on them such as activating, deactivating, deleting and exporting."
+msgstr "در این قسمت شما می توانید اسنیپت های موجود را مدیریت کنید و اعمالی مانند فعال کردن، غیر فعال کردن، حذف و برون بری را انجام دهید"
+
+#: php/class-contextual-help.php:125
+msgid "Snippets are similar to plugins - they both extend and expand the functionality of WordPress. Snippets are more light-weight, just a few lines of code, and do not put as much load on your server. "
+msgstr "اسنیپت ها شبیه به افزونه ها می باشند - هر دو آنها قابلیت های وردپرس را گسترش می دهند. اما اسنیپت ها سبک تر بوده و تنها از چند خط کد تشکیل می شوند، و فشار زیادی روی سرور شما نمی آورند."
+
+#: php/admin-menus/class-edit-menu.php:38
+msgctxt "menu label"
+msgid "Edit Snippet"
+msgstr "ویرایش اسنیپت"
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+#: code-snippets.php
+msgid "https://codesnippets.pro"
+msgstr "https://codesnippets.pro"
+
+#. Author of the plugin
+#: code-snippets.php
+msgid "Code Snippets Pro"
+msgstr "کد اسنیپت حرفه ای"
+
+#. translators: %s: tag name.
+#: php/class-list-table.php:1292
+msgid " in tag &ldquo;%s&rdquo;"
+msgstr "در برچسب  &ldquo;%s&rdquo;"
+
+#. translators: %s: search query.
+#: php/class-list-table.php:1285
+msgid " for &ldquo;%s&rdquo;"
+msgstr "برای &ldquo;%s&rdquo;"
+
+#: php/class-list-table.php:889
+msgid "It looks like you don't have any snippets."
+msgstr "به نظر می‌رسد شما هیچ قطعه‌ای ندارید."
+
+#: php/class-list-table.php:261 php/class-list-table.php:488
+msgid "Clone"
+msgstr "تکثیرکردن"
+
+#: php/admin-menus/class-admin-menu.php:180
+msgctxt "snippets"
+msgid "Import"
+msgstr "درون‌ریزی"
+
+#: php/views/import.php:94
+msgid "Upload Files"
+msgstr "بارگذاری پرونده‌ها"
+
+#: php/admin-menus/class-admin-menu.php:183
+msgctxt "snippets"
+msgid "Settings"
+msgstr "تنظیمات"
+
+#: php/admin-menus/class-admin-menu.php:174
+#: php/admin-menus/class-settings-menu.php:114
+msgctxt "snippets"
+msgid "Manage"
+msgstr "مدیریت"
+
+#: php/views/partials/list-table-notices.php:58
+msgid "Selected snippets <strong>cloned</strong>."
+msgstr "قطعه‌های انتخاب‌شده <strong>تکثیر شدند</strong>."
+
+#: php/views/partials/list-table-notices.php:57
+msgid "Snippet <strong>cloned</strong>."
+msgstr "قطعه <strong>تکثیر شد</strong>."
+
+#: php/admin-menus/class-manage-menu.php:155
+msgctxt "tools submenu label"
+msgid "Snippets"
+msgstr "قطعه‌ها"
+
+#: php/class-list-table.php:442 php/settings/settings-fields.php:111
+#: dist/edit.js:2
+msgid "Priority"
+msgstr "اولویت"
+
+#: php/views/import.php:89
+msgid "Do not import any duplicate snippets; leave all existing snippets unchanged."
+msgstr "هر قطعه تکراری را وارد نکنید; کلیه قطعه های موجود بدون تغییر را ترک کنید."
+
+#: php/views/import.php:82
+msgid "Replace any existing snippets with a newly imported snippet of the same name."
+msgstr "هر قطعه موجود را با یک قطعه تازه وارد شده با همین نام جایگزین کنید."
+
+#: php/views/import.php:75
+msgid "Ignore any duplicate snippets: import all snippets from the file regardless and leave all existing snippets unchanged."
+msgstr "هر قطعه تکراری را نادیده بگیرید: همه قطعهها را از فایل مستقیما وارد کنید و همه قطعههای موجود را بدون تغییر باقی بگذارید."
+
+#: php/views/import.php:68
+msgid "What should happen if an existing snippet is found with an identical name to an imported snippet?"
+msgstr "اگر یک قطعه موجود با یک نام مشابه به یک قطعه وارد شده چه اتفاقی می افتد؟"
+
+#: php/views/import.php:65
+msgid "Duplicate Snippets"
+msgstr "کد تکراری"
+
+#: php/views/import.php:97
+msgid "Choose one or more Code Snippets (.xml or .json) files to upload, then click \"Upload files and import\"."
+msgstr "یک یا چند کد (.xml یا .json) را برای بارگذاری انتخاب کنید سپس بر روی \"Upload files and import\" کلیک کنید."
+
+#: php/views/import.php:41
+msgid "Upload one or more Code Snippets export files and the snippets will be imported."
+msgstr "بارگذاری یک یا چند فایل برون ریزی شده کدها که میخواهید درون ریزی نمایید."
+
+#: php/settings/settings-fields.php:137
+msgid "When the plugin is deleted from the Plugins menu, also delete all snippets and plugin settings."
+msgstr "هنگامی که افزونه از منوی افزونه ها حذف می شود، تمام قطعات و تنظیمات افزونه را نیز حذف کنید."
+
+#: php/settings/settings-fields.php:135
+msgid "Complete Uninstall"
+msgstr "حذف کامل"
+
+#: php/cloud/list-table-shared-ops.php:105
+#: php/cloud/list-table-shared-ops.php:111
+msgid "Download"
+msgstr "دانلود"
+
+#: php/class-list-table.php:302
+msgid "Run Once"
+msgstr "یکبار اجرا شود"
+
+#: php/class-admin.php:87
+msgid "Snippets &raquo; Settings"
+msgstr "تنظیمات &raquo; کدها"
+
+#: php/admin-menus/class-settings-menu.php:144
+msgid "Reset to Default"
+msgstr "بازگردای به حالت پیش فرض"
+
+#: php/settings/settings.php:252
+msgid "All settings have been reset to their defaults."
+msgstr "تمام تنظیمات به حالت پیش فرض تنظیم شدند."
+
+#: php/views/partials/list-table-notices.php:50
+msgid "Snippet <strong>executed</strong>."
+msgstr "کد <strong>اجرا شد</strong>."
+
+#: php/admin-menus/class-import-menu.php:137
+msgid "No snippets were imported."
+msgstr "هیچ کدی درون ریزی نشد."
+
+#: php/class-list-table.php:898
+msgid "Perhaps you would like to add a new one?"
+msgstr "شاید شما مایل به اضافه کردن یک کد باشید؟"
+
+#: php/class-list-table.php:254
+msgid "Network Only"
+msgstr "فقط شبکه"
+
+#: php/class-list-table.php:252
+msgid "Network Active"
+msgstr "فعالسازی شبکه"
+
+#. Description of the plugin
+#: code-snippets.php
+msgid "An easy, clean and simple way to run code snippets on your site. No need to edit to your theme's functions.php file again!"
+msgstr "یک راه ساده، تمیز و آسان برای اجرای قطعه کد های مورد نیاز سایت شما. بدون نیاز به ویرایش دستی توابع functions.php پوسته سایت شما."
+
+#: php/views/import.php:116
+msgid "Upload files and import"
+msgstr "بارگذاری فایل ها و درون ریزی"
+
+#. translators: %s: size in bytes
+#: php/views/import.php:105
+msgid "(Maximum size: %s)"
+msgstr "(بیشترین اندازه: %s)"
+
+#: php/views/import.php:102
+msgid "Choose files from your computer:"
+msgstr "یک پرونده از رایانهٔ خود برگزینید:"
+
+#. translators: %s: link to snippets admin menu
+#: php/views/import.php:46
+msgid "Afterward, you will need to visit the <a href=\"%s\" >All Snippets</a> page to activate the imported snippets."
+msgstr "پس از آن، شما باید از صفحه <a href=\"%s\">تمام اسنیپت ها</a> برای فعالسازی درون ریزی شده ها بازدید کنید."
+
+#: php/admin-menus/class-admin-menu.php:177
+#: php/admin-menus/class-settings-menu.php:115 dist/edit.js:2
+msgctxt "snippet"
+msgid "Add New"
+msgstr "اضافه کردن جدید"
+
+#: php/admin-menus/class-settings-menu.php:220 php/settings/settings.php:330
+msgid "Settings saved."
+msgstr "تنظیمات ذخیره شد."
+
+#: php/settings/settings.php:182
+msgid "Editor Preview"
+msgstr "پیشنمایش ویرایشگر"
+
+#: php/settings/settings.php:140
+msgid "Code Editor"
+msgstr "ویرایشگر کد"
+
+#: php/settings/settings.php:139
+msgid "General"
+msgstr "عمومی"
+
+#: php/settings/settings-fields.php:190
+msgid "Highlight all instances of a currently selected word."
+msgstr "تمام نمونه های یک کلمه در حال حاضر انتخاب شده را برجسته کنید."
+
+#: php/settings/settings-fields.php:189
+msgid "Highlight Selection Matches"
+msgstr "هایلایت انتخاب برجسته ها"
+
+#: php/settings/settings-fields.php:185
+msgid "Auto-close brackets and quotes when typed."
+msgstr "بست خودکار کروشه و نقل قول هنگام تایپ."
+
+#: php/settings/settings-fields.php:183
+msgid "Auto Close Brackets"
+msgstr "بستن خودکار کروشه"
+
+#: php/settings/settings-fields.php:179
+msgid "Show line numbers to the left of the editor."
+msgstr "نمایش تعداد خط سمت چپ ویرایشگر."
+
+#: php/settings/settings-fields.php:177
+msgid "Line Numbers"
+msgstr "تعداد خط"
+
+#: php/settings/settings-fields.php:165
+msgid "Wrap Lines"
+msgstr "خطوط بسته بندی"
+
+#: php/settings/settings-fields.php:157
+msgid "Indent Unit"
+msgstr "واحد برجسته کردن"
+
+#: php/settings/settings-fields.php:151
+msgid "The width of a tab character."
+msgstr "عرض یک کارکتر زبانه."
+
+#: php/settings/settings-fields.php:149
+msgid "Tab Size"
+msgstr "اندازه زبانه"
+
+#: php/settings/settings-fields.php:145
+msgid "Use hard tabs instead of spaces for indentation."
+msgstr "از زبانه های سخت به جای فاصله برای تورفتگی استفاده کنید."
+
+#: php/settings/settings-fields.php:143
+msgid "Indent With Tabs"
+msgstr "برجسته کردن با زبانه ها"
+
+#: php/settings/settings-fields.php:213
+msgid "Theme"
+msgstr "تم"
+
+#: php/settings/settings-fields.php:98
+msgid "Show snippet descriptions on admin pages."
+msgstr "نمایش توضیحات قطعه در صفحات مدیریت."
+
+#: php/settings/settings-fields.php:96
+msgid "Enable Snippet Descriptions"
+msgstr "فعال کردن شرح کدها"
+
+#: php/settings/settings-fields.php:93
+msgid "Show snippet tags on admin pages."
+msgstr "نمایش تگ های قطعه در صفحات مدیریت."
+
+#: php/settings/settings-fields.php:91
+msgid "Enable Snippet Tags"
+msgstr "فعال کردن برچسب ها کد"
+
+#: php/settings/settings-fields.php:88
+msgid "Make the 'Save and Activate' button the default action when saving a snippet."
+msgstr "دکمه 'Save and Activate' پیش فرض در زمان ذخیره کدها است."
+
+#: php/settings/settings-fields.php:86
+msgid "Activate by Default"
+msgstr "بصورت پیش فرض فعال"
+
+#: php/class-list-table.php:1301
+msgid "Clear Filters"
+msgstr "پاک کردن فیلترها"
+
+#: php/class-list-table.php:1268
+msgid "Search results"
+msgstr "نتیجه جستجو"
+
+#: php/class-list-table.php:654
+msgid "Clear List"
+msgstr "پاک کردن لیست"
+
+#: php/class-list-table.php:646
+msgid "Filter"
+msgstr "فیلتر"
+
+#: php/class-list-table.php:631
+msgid "Show all tags"
+msgstr "نمایش همه برچسب ها"
+
+#. translators: %s: total number of recently activated snippets.
+#: php/class-list-table.php:554
+msgid "Recently Active <span class=\"count\">(%s)</span>"
+msgid_plural "Recently Active <span class=\"count\">(%s)</span>"
+msgstr[0] "اخیرا فعال <span class=\"count\">(%s)</span>"
+
+#. translators: %s: total number of inactive snippets.
+#: php/class-list-table.php:546
+msgid "Inactive <span class=\"count\">(%s)</span>"
+msgid_plural "Inactive <span class=\"count\">(%s)</span>"
+msgstr[0] "غیرفعال <span class=\"count\">(%s)</span>"
+
+#. translators: %s: total number of active snippets.
+#: php/class-list-table.php:538
+msgid "Active <span class=\"count\">(%s)</span>"
+msgid_plural "Active <span class=\"count\">(%s)</span>"
+msgstr[0] "فعال <span class=\"count\">(%s)</span>"
+
+#. translators: %s: total number of snippets.
+#: php/class-list-table.php:530
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] "همه <span class=\"count\">(%s)</span>"
+
+#: php/class-list-table.php:443
+msgid "ID"
+msgstr "ID"
+
+#: php/class-list-table.php:437 dist/edit.js:2
+msgid "Name"
+msgstr "نام"
+
+#: php/class-list-table.php:365
+msgid "Shared on Network"
+msgstr "به اشتراک گذاشته بر روی شبکه"
+
+#: php/class-list-table.php:277
+msgid "'Cancel' to stop, 'OK' to delete."
+msgstr "'cancel' برای توقف, 'OK' برای حذف کردن."
+
+#: php/class-list-table.php:276
+msgid "You are about to permanently delete the selected item."
+msgstr "شما موارد دائمی را حذف کردید."
+
+#: php/class-list-table.php:271 php/class-list-table.php:491 dist/edit.js:2
+msgid "Delete"
+msgstr "حذف"
+
+#: php/class-list-table.php:262 php/class-list-table.php:490 dist/edit.js:2
+msgid "Export"
+msgstr "درون ریزی"
+
+#: php/class-list-table.php:260
+msgid "Edit"
+msgstr "ویرایش"
+
+#: php/class-list-table.php:321 php/class-list-table.php:486 dist/manage.js:2
+msgid "Activate"
+msgstr "فعالسازی"
+
+#: php/class-list-table.php:320 php/class-list-table.php:486
+msgid "Network Activate"
+msgstr "فعالسازی شبکه"
+
+#: php/class-list-table.php:321 php/class-list-table.php:487 dist/manage.js:2
+msgid "Deactivate"
+msgstr "غیرفعالسازی"
+
+#: php/class-list-table.php:320 php/class-list-table.php:487
+msgid "Network Deactivate"
+msgstr "غیرفعالسازی شبکه"
+
+#: php/class-list-table.php:90
+msgid "Snippets per page"
+msgstr "کد در هر صفحه"
+
+#. translators: %s: URL to Manage Snippets admin menu
+#: php/class-contextual-help.php:201
+msgid "You can save your snippets to a code snippets export file using the <a href=\"%s\">Manage Snippets</a> page."
+msgstr "شما میتوانید تکه کدهای اسنیپت سایت خود را به کمک صفحه <a href=\"%s\">مدیریت اسنیپت ها</a> برون بری کرده و ذخیره کنید."
+
+#: php/class-contextual-help.php:199
+msgid "Exporting"
+msgstr "برون ریزی"
+
+#. translators: %s: URL to Snippets admin menu
+#: php/class-contextual-help.php:194
+msgid "Imported snippets will be added to the database along with your existing snippets. Regardless of whether the snippets were active on the previous site, imported snippets are always inactive until activated using the <a href=\"%s\">Manage Snippets</a> page."
+msgstr "قطعه کد های درون ریزی شده در کنار قطعه کد های قدیمی به پایگاه داده اضافه خواهند شد، صرف نظر از اینکه آیا قطعه کد ها روی سایت قبلی فعال بوده اند یا نه، قطعه کدهای درون ریزی شده همیشه ابتدا غیر فعال هستند تا زمانی که از صفحه <a href=\"%s\"> مدیریت قطعه کد ها </a>  آنها را فعال کنید."
+
+#: php/class-contextual-help.php:192
+msgid "You can load your snippets from a code snippets export file using this page."
+msgstr "شما میتوانید به کمک این صفحه تکه کد های اسنیپت برون بری شده خود را دوباره بارگذاری کنید."
+
+#: php/class-contextual-help.php:191
+msgid "Importing"
+msgstr "درون ریزی"
+
+#: php/class-contextual-help.php:170
+msgid "You need to fill out the name and code fields for your snippet to be added. While the description field will add more information about how your snippet works, what is does and where you found it, it is completely optional."
+msgstr "شما باید فیلدهای نام و کد را برای قطعه ای که باید اضافه کنید پر کنید. در حالی که در قسمت توضیحات اطلاعات بیشتری در مورد نحوه عملکرد عبارات شما اضافه می شود، چه کاری انجام می شود و جایی که شما آن را پیدا کردید، کاملا اختیاری است."
+
+#: php/class-contextual-help.php:168
+msgid "Adding Snippets"
+msgstr "اضافه کردن کدها"
+
+#: php/class-contextual-help.php:143
+msgid "Be sure to check your snippets for errors before you activate them, as a faulty snippet could bring your whole blog down. If your site starts doing strange things, deactivate all your snippets and activate them one at a time."
+msgstr "قبل از اینکه آنها را فعال کنید، قطعه های خود را برای خطاها بررسی کنید، یک قطعه معیوب می تواند کل وبلاگ را غیرفعال کند. همه ی بخش های خود را غیرفعال کرده و آنها را در یک زمان فعال کنید."
+
+#: php/class-contextual-help.php:141
+msgid "Safe Mode"
+msgstr "حالت ایمن"
+
+#: php/class-contextual-help.php:134 php/class-contextual-help.php:157
+#: php/class-contextual-help.php:184
+msgid "Overview"
+msgstr "بررسی اجمالی"
+
+#: php/class-contextual-help.php:72
+msgid "Plugin Website"
+msgstr "وبسایت افزونه"
+
+#: php/class-contextual-help.php:71
+msgid "Support Forum"
+msgstr "انجمن پشتیبانی"
+
+#: php/class-contextual-help.php:70
+msgid "FAQ"
+msgstr "سوالات متداول"
+
+#: php/class-contextual-help.php:69
+msgid "About Plugin"
+msgstr "درباره افزونه"
+
+#: php/class-contextual-help.php:81
+msgid "For more information:"
+msgstr "برای اطلاعات بیشتر:"
+
+#: php/class-admin.php:300
+msgid "Dismiss"
+msgstr "رد کردن"
+
+#: php/class-admin.php:278
+msgid "Take the survey now"
+msgstr "اکنون این نظرسنجی را انجام دهید"
+
+#: php/class-admin.php:279
+msgid "<strong>Have feedback on Code Snippets?</strong> Please take the time to answer a short survey on how you use this plugin and what you'd like to see changed or added in the future."
+msgstr "<strong>آیا بازخوردی در مورد افزونه اسنیپت دارید؟</strong> لطفا با اختصاص زمانی کوتاه نظرات و پیشنهادات خود را با ما در میان بگذارید."
+
+#: php/admin-menus/class-welcome-menu.php:64
+msgid "Support"
+msgstr "پشتیبانی"
+
+#: php/class-admin.php:119
+msgid "Manage your existing snippets"
+msgstr "کدهای موجود خود را مدیریت کنید"
+
+#: php/admin-menus/class-settings-menu.php:110 php/class-admin.php:114
+msgid "Settings"
+msgstr "تنظیمات"
+
+#: php/admin-menus/class-settings-menu.php:30
+msgid "Snippets Settings"
+msgstr "تنظیمات کدها"
+
+#: php/admin-menus/class-settings-menu.php:29
+msgctxt "menu label"
+msgid "Settings"
+msgstr "تنظیمات"
+
+#: php/views/partials/list-table-notices.php:56
+msgid "Selected snippets <strong>deleted</strong>."
+msgstr "کدهای منتخب <strong>حذف شدند</strong>."
+
+#: php/views/partials/list-table-notices.php:55
+msgid "Snippet <strong>deleted</strong>."
+msgstr "کد <strong>حذف شد</strong>."
+
+#: php/views/partials/list-table-notices.php:54
+msgid "Selected snippets <strong>deactivated</strong>."
+msgstr "کدهای منتخب <strong>غیرفعال شدند</strong>."
+
+#: php/views/partials/list-table-notices.php:53
+msgid "Snippet <strong>deactivated</strong>."
+msgstr "کد <strong>غیرفعال شد</strong>."
+
+#: php/views/partials/list-table-notices.php:52
+msgid "Selected snippets <strong>activated</strong>."
+msgstr "کدهای منتخب <strong>فعال شدند</strong>."
+
+#: php/views/partials/list-table-notices.php:51
+msgid "Snippet <strong>activated</strong>."
+msgstr "کد <strong>فعال شد</strong>."
+
+#: php/admin-menus/class-manage-menu.php:64
+msgctxt "top-level menu label"
+msgid "Snippets"
+msgstr "کدها"
+
+#: php/admin-menus/class-manage-menu.php:37
+#: php/admin-menus/class-manage-menu.php:63
+#: php/admin-menus/class-manage-menu.php:154 php/class-admin.php:86
+#: php/class-admin.php:120 php/views/manage.php:46
+msgid "Snippets"
+msgstr "کدها"
+
+#: php/admin-menus/class-manage-menu.php:36
+msgctxt "menu label"
+msgid "All Snippets"
+msgstr "تمام کدها"
+
+#: php/admin-menus/class-import-menu.php:127
+msgid "An error occurred when processing the import files."
+msgstr "هنگام پردازش فایل های درون ریزی شده خطایی رخ داد."
+
+#: php/admin-menus/class-import-menu.php:115
+msgid "Import snippets from a code snippets export file"
+msgstr "درون ریزی کدها از فایل های برون ریزی شده کدها"
+
+#. Plugin Name of the plugin
+#: code-snippets.php php/admin-menus/class-import-menu.php:114
+msgid "Code Snippets"
+msgstr "کدها"
+
+#: php/admin-menus/class-import-menu.php:20 php/views/import.php:28
+msgid "Import Snippets"
+msgstr "درون ریزی کدها"
+
+#: php/admin-menus/class-import-menu.php:19
+msgctxt "menu label"
+msgid "Import"
+msgstr "درون ریزی"
+
+#: php/class-list-table.php:440
+msgid "Tags"
+msgstr "برچسب ها"
+
+#: php/class-list-table.php:439 dist/edit.js:2
+msgid "Description"
+msgstr "شرح"
+
+#: php/admin-menus/class-edit-menu.php:69
+msgctxt "menu label"
+msgid "Add New"
+msgstr "جدید اضافه کن"
+
+#: php/admin-menus/class-edit-menu.php:39 dist/edit.js:2
+msgid "Edit Snippet"
+msgstr "ویرایش کد"
+
+#: php/admin-menus/class-admin-menu.php:131
+msgid "You are not authorized to access this page."
+msgstr "شما مجاز نیستید به این صفحه دسترسی داشته باشید."
